@@ -17,10 +17,23 @@ public class AddView extends JFrame{
     public AddView() {
         add(rootPanelSubmit);
 
-        setTitle("person toevoegen");
+        setTitle("Persoon toevoegen");
         setSize(300, 140);
+    }
 
-        ActionListener submitButtonListener = new PersoonController.SubmitListener();
-        submitButton.addActionListener(submitButtonListener);
+    public void addSubmitButtonListener(ActionListener listenForSubmitButton) {
+        submitButton.addActionListener(listenForSubmitButton);
+    }
+
+    public String getFirstnameField() {
+        return firstnameField.getText();
+    }
+
+    public String getLastnameField() {
+        return lastnameField.getText();
+    }
+
+    public String getBirthdateField() {
+        return birthdateField.getText();
     }
 }

@@ -10,15 +10,16 @@ import javax.swing.*;
 public class Runner {
 
     public static void main (String[] args) {
-        PersoonController personController = new PersoonController();
-        PersoonModel personModel = new PersoonModel();
-        PersoonView personView = new PersoonView();
         AddView addView = new AddView();
+        PersoonView persoonView = new PersoonView();
+        PersoonModel persoonModel = new PersoonModel();
+        PersoonController persoonController = new PersoonController(addView, persoonView, persoonModel);
 
-        personView.setVisible(true);
+
+        persoonView.setVisible(true);
         addView.setVisible(true);
 
-        personView.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
 
     }
 }
