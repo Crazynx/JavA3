@@ -1,4 +1,4 @@
-package src.main;
+package src.main.oefening4;
 
 import src.main.oefening4.controller.PersoonController;
 import src.main.oefening4.model.PersoonModel;
