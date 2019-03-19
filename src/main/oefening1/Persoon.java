@@ -3,7 +3,7 @@ package src.main.oefening1;
 import java.time.LocalDate;
 import java.time.Period;
 
-class Persoon {
+class person {
     private String firstName;
     private String lastName;
     private LocalDate dateOfBirth;
