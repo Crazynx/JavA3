@@ -8,7 +8,6 @@ public class AddView extends JFrame{
     private JButton submitButton;
     private JTextField firstnameField;
     private JTextField lastnameField;
-    private JTextField birthdateField;
     private JPanel rootPanelSubmit;
 
     public AddView() {
@@ -17,7 +16,7 @@ public class AddView extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // close when tab is closed instead of hiding tab
 
         setTitle("Persoon toevoegen"); // set title
-        setSize(300, 140); // set size
+        setSize(250, 140); // set size
     }
 
     public void addSubmitButtonListener(ActionListener listenForSubmitButton) { // action listener for submit button
@@ -27,7 +26,6 @@ public class AddView extends JFrame{
     public void clearFields() { // clear the fields
         setFirstnameField("");
         setLastnameField("");
-        setBirthdateField("");
     }
 
     /* SETTERS
@@ -43,10 +41,5 @@ public class AddView extends JFrame{
         return lastnameField.getText();
     }
     public void setLastnameField(String text) { lastnameField.setText(text);}
-
-    public String getBirthdateField() {
-        return birthdateField.getText();
-    }
-    public void setBirthdateField(String text) { birthdateField.setText(text);}
 
 }

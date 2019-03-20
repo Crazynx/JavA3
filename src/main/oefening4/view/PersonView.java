@@ -28,7 +28,7 @@ public class PersonView extends JFrame {
     public void updatePersonList(List<Person> personen) { // update the person list
         model = new DefaultListModel<String>(); // create new model
         for (Person person : personen) { // foreach every person to a new element
-            model.addElement("Naam: " + person.getFirstname() + " " + person.getLastname() + " | Geboortedatum: " + person.getBirthdate());
+            model.addElement("Naam: " + person.getFirstname() + " " + person.getLastname());
         }
         personList.setModel(model); // set the list to model
     }

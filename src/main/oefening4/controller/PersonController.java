@@ -40,7 +40,6 @@ public class PersonController {
             Person person = new Person(); // create new person
             person.setFirstname(addView.getFirstnameField()); // set first name
             person.setLastname(addView.getLastnameField()); // set last name
-            person.setBirthdate(addView.getBirthdateField()); // set birthdate
             personModel.addPerson(person); // add person to the person list
 
             personView.updatePersonList(personModel.getPersons()); // update person with the person list as parameter

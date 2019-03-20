@@ -15,7 +15,4 @@ public class Person {
     public void setLastname(String lastname) { this.lastname = lastname; }
     public String getLastname() { return lastname; }
 
-    public void setBirthdate(String birthdate) { this.birthdate = birthdate; }
-    public String getBirthdate() { return birthdate; }
-
 }
