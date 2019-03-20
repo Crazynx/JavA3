@@ -13,9 +13,9 @@ public class PersonView extends JFrame {
     private DefaultListModel<String> model;
 
     public PersonView() {
-        add(rootPanelperson); // get tab
+        add(rootPanelperson); // add rootpanel
 
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // close tab instead of hiding it
 
         setTitle("Overzicht van personen"); // set title
         setSize(400, 500); // set size
@@ -28,7 +28,7 @@ public class PersonView extends JFrame {
     public void updatePersonList(List<Person> personen) { // update the person list
         model = new DefaultListModel<String>(); // create new model
         for (Person person : personen) { // foreach every person to a new element
-            model.addElement("Naam: " + person.getFirstname() + " " + person.getLastname() + " Geboortedatum: " + person.getBirthdate());
+            model.addElement("Naam: " + person.getFirstname() + " " + person.getLastname() + " | Geboortedatum: " + person.getBirthdate());
         }
         personList.setModel(model); // set the list to model
     }
