@@ -17,6 +17,8 @@ public class AddView extends JFrame{
     public AddView() {
         add(rootPanelSubmit);
 
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         setTitle("Persoon toevoegen");
         setSize(300, 140);
     }
