@@ -27,12 +27,15 @@ public class PersoonController {
         @Override
         public void actionPerformed(ActionEvent e) {
             // TODO: add code for filling the list with all persons
+
+            addView.setVisible(true);
         }
     }
 
     public class SubmitListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
+            // TODO: add code for creating a new person
 
             PersoonModel persoon = new PersoonModel();
             persoon.setVoornaam(addView.getFirstnameField());
@@ -40,6 +43,7 @@ public class PersoonController {
             persoon.setGeboortedatum(addView.getBirthdateField());
             persoon.addPersoon(persoon);
 
+            addView.setVisible(false);
 
         }
     }
