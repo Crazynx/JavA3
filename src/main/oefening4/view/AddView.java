@@ -1,10 +1,7 @@
 package src.main.oefening4.view;
 
 
-import src.main.oefening4.controller.PersoonController;
-
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionListener;
 
 public class AddView extends JFrame{

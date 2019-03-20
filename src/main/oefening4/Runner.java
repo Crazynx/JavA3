@@ -1,19 +1,19 @@
 package src.main.oefening4;
 
-import src.main.oefening4.controller.PersoonController;
-import src.main.oefening4.model.PersoonModel;
+import src.main.oefening4.controller.PersonController;
+import src.main.oefening4.model.PersonModel;
 import src.main.oefening4.view.AddView;
-import src.main.oefening4.view.PersoonView;
+import src.main.oefening4.view.PersonView;
 
 public class Runner {
 
     public static void main(String[] args) {
         AddView addView = new AddView();
-        PersoonView persoonView = new PersoonView();
-        PersoonModel persoonModel = new PersoonModel();
-        PersoonController persoonController = new PersoonController(addView, persoonView, persoonModel);
+        PersonView personView = new PersonView();
+        PersonModel personModel = new PersonModel();
+        PersonController personController = new PersonController(addView, personView, personModel);
 
-        persoonView.setVisible(true);
+        personView.setVisible(true);
     }
 
 }
