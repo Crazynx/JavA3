@@ -13,7 +13,7 @@ public class Runner {
         PersonModel personModel = new PersonModel();
         PersonController personController = new PersonController(addView, personView, personModel);
 
-        personView.setVisible(true);
+        personView.setVisible(true); // show the program tab
     }
 
 }
