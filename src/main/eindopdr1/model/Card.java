@@ -1,8 +1,6 @@
 package src.main.eindopdr1.model;
 
-import javax.swing.*;
-
-public class Card extends JButton {
+public class Card {
 
     private String name;
     private int value;
@@ -11,5 +9,6 @@ public class Card extends JButton {
     public void setName(String name) { this.name = name; }
 
     public int getValue() { return value; }
-    public void setValue() { this.value = value; }
+    public void setValue(int value) { this.value = value; }
+
 }
