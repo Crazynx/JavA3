@@ -1,44 +1,68 @@
 package src.main.eindopdr1.model;
 
-import java.util.List;
+import src.main.eindopdr1.view.GameView;
+
+import javax.swing.*;
 
 public class GameModel {
 
-    private Card card;
-    private List<Card> cards;
+    private static JButton[][] buttons;
 
     public GameModel() {
+        initButtons();
 
-        initCards();
     }
 
-    private void initCards() {
-        for (int x = 1; x <= 8; x++) {
-            createCard("card" + x, x);
-            addToCards(getCard());
+    public void initButtons() {
+        createButtons(); // generate buttons
+        ShuffleArray.shuffle(buttons); // shuffle array
+        setRandomValueToButtons(buttons); // assign values in pairs of two
 
-            createCard("card" + (++x), x );
-            addToCards(getCard());
+    }
+
+    public static JButton[][] getButtons() {
+        return buttons;
+    }
+
+    public void createButtons() {
+        buttons = new JButton[4][4];
+        buttons[0][0] = new JButton("button1");
+        buttons[0][1] = new JButton("button2");
+        buttons[0][2] = new JButton("button3");
+        buttons[0][3] = new JButton("button4");
+
+        buttons[1][0] = new JButton("button5");
+        buttons[1][1] = new JButton("button6");
+        buttons[1][2] = new JButton("button7");
+        buttons[1][3] = new JButton("button8");
+
+        buttons[2][0] = new JButton("button9");
+        buttons[2][1] = new JButton("button10");
+        buttons[2][2] = new JButton("button11");
+        buttons[2][3] = new JButton("button12");
+
+        buttons[3][0] = new JButton("button13");
+        buttons[3][1] = new JButton("button14");
+        buttons[3][2] = new JButton("button15");
+        buttons[3][3] = new JButton("button16");
+    }
+
+    private void setRandomValueToButtons(JButton[][] buttons) {
+        for (int x = 0; x < buttons.length; x++) {
+            for (int y = 0; y < buttons[x].length; y++) {
+                // TODO: Create pairs of 2 with the same value, the value has to be an UNIQUE random int between 1 and 8
+                int randIndex = (int) (Math.random() * 8 + 1);
+                // TODO: Check if randIndex is unique
+                ImageIcon imageIcon = new ImageIcon("../images/card_" + randIndex +".jpg");
+                buttons[x][y].setIcon(imageIcon);
+                buttons[x][y].setActionCommand(randIndex + "");
+                buttons[x][++y].setIcon(imageIcon);
+                buttons[x][y].setActionCommand(randIndex + "");
         }
-
-
     }
 
-    private void createCard(String name, int value) {
-        card = new Card();
-        card.setName(name);
-        card.setValue(value);
-    }
+}
 
-    private Card getCard() {
-        return card;
-    }
 
-    private void addToCards(Card card) {
-        cards.add(card);
-    }
 
-    private List<Card> getCards() {
-        return cards;
-    }
 }
