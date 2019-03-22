@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="421ef153-89c0-43f1-8658-6f3602fb7c8f" name="Default Changelist" comment="ga er morgen mee verder">
-      <change afterPath="$PROJECT_DIR$/src/main/eindopdr1/UnitTest.java" afterDir="false" />
+    <list default="true" id="421ef153-89c0-43f1-8658-6f3602fb7c8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/Card.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/model/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_back.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,84 +27,64 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="257">
-                  <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#320#321#0" expanded="true" />
-                    <element signature="e#349#350#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/ShuffleArray.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/Runner.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/Runner.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/ShuffleArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,6 +106,7 @@
       <find>stat</find>
       <find>shuffleArray</find>
       <find>[][]</find>
+      <find>icon</find>
     </findStrings>
     <replaceStrings>
       <replace>add</replace>
@@ -165,10 +148,10 @@
         <option value="$PROJECT_DIR$/src/main/eindopdr1/model/Game.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/model/Card.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/UnitTest.java" />
-        <option value="$PROJECT_DIR$/src/main/eindopdr1/Runner.java" />
-        <option value="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/model/ShuffleArray.java" />
+        <option value="$PROJECT_DIR$/src/main/eindopdr1/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" />
       </list>
     </option>
@@ -226,6 +209,14 @@
               <item name="eindopdr1" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavA3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavA3" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="eindopdr1" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="GameView" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -239,7 +230,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="316" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553285300650" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553288223704" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -395,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553202016558</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="buttons kunnen geshuffeld worden en krijgen automatisch een random waarde">
+      <created>1553285351132</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553285351132</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -411,7 +409,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,7 +419,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.38907468" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.38907468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,7 +520,8 @@
     <MESSAGE value="birthdate field verwijderd en een blauwe achtergrond toegevoegd #fancy" />
     <MESSAGE value="GUI voor de game" />
     <MESSAGE value="ga er morgen mee verder" />
-    <option name="LAST_COMMIT_MESSAGE" value="ga er morgen mee verder" />
+    <MESSAGE value="buttons kunnen geshuffeld worden en krijgen automatisch een random waarde" />
+    <option name="LAST_COMMIT_MESSAGE" value="buttons kunnen geshuffeld worden en krijgen automatisch een random waarde" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/oefening4/Main.java" />
@@ -540,9 +539,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/images/card_1.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/oefening4/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="230">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -615,15 +611,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="276">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -632,22 +628,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/ShuffleArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="414">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
 </project>
