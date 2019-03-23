@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="421ef153-89c0-43f1-8658-6f3602fb7c8f" name="Default Changelist" comment="">
+    <list default="true" id="421ef153-89c0-43f1-8658-6f3602fb7c8f" name="Default Changelist" comment="icons worden nu aan de buttons toegevoegd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_back.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/images/card_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/images/card_back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -230,7 +227,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="316" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553288223704" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553288224729" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -393,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553285351132</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="icons worden nu aan de buttons toegevoegd">
+      <created>1553288259106</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553288259106</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -407,7 +411,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -419,7 +422,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.38907468" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.38907468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -521,7 +524,8 @@
     <MESSAGE value="GUI voor de game" />
     <MESSAGE value="ga er morgen mee verder" />
     <MESSAGE value="buttons kunnen geshuffeld worden en krijgen automatisch een random waarde" />
-    <option name="LAST_COMMIT_MESSAGE" value="buttons kunnen geshuffeld worden en krijgen automatisch een random waarde" />
+    <MESSAGE value="icons worden nu aan de buttons toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="icons worden nu aan de buttons toegevoegd" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/oefening4/Main.java" />
