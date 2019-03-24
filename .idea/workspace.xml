@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="421ef153-89c0-43f1-8658-6f3602fb7c8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/images/card_8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="103" column="56" lean-forward="true" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
+            <state relative-caret-position="447">
+              <caret line="127" column="13" lean-forward="true" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
               <folding>
                 <element signature="e#909#910#0" expanded="true" />
                 <element signature="e#953#954#0" expanded="true" />
@@ -237,7 +225,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="316" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553441337109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553455572609" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -495,7 +483,42 @@
       <option name="project" value="LOCAL" />
       <updated>1553437155683</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="increment score method added. method that increments the score">
+      <created>1553441280686</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441280686</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added current and previous button variables, used to check for match">
+      <created>1553441313866</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441313866</updated>
+    </task>
+    <task id="LOCAL-00028" summary="setScore method added that shows the score">
+      <created>1553441336227</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441336227</updated>
+    </task>
+    <task id="LOCAL-00029" summary="increment score method that increments the score">
+      <created>1553441372297</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441372297</updated>
+    </task>
+    <task id="LOCAL-00030" summary="resized images, again...">
+      <created>1553441384977</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441384977</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -612,9 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GUI voor de lijst en het scherm om een persoon toe te voegen" />
-    <MESSAGE value="Runner in de oefening geplaats ipv er buiten" />
-    <MESSAGE value="alle velden worden leeg gemaakt na het invoeren van een persoon" />
     <MESSAGE value="indentation gewijzigd" />
     <MESSAGE value="clearField methode en commentaar toegevoegd" />
     <MESSAGE value="commentaar gewijzigd en list item duidelijker gemaakt" />
@@ -635,7 +655,12 @@
     <MESSAGE value="resized images according to width and height of buttons" />
     <MESSAGE value="uncommented a line that was commented for testing" />
     <MESSAGE value="when clicked, a card will turn" />
-    <option name="LAST_COMMIT_MESSAGE" value="when clicked, a card will turn" />
+    <MESSAGE value="increment score method added. method that increments the score" />
+    <MESSAGE value="added current and previous button variables, used to check for match" />
+    <MESSAGE value="setScore method added that shows the score" />
+    <MESSAGE value="increment score method that increments the score" />
+    <MESSAGE value="resized images, again..." />
+    <option name="LAST_COMMIT_MESSAGE" value="resized images, again..." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/oefening4/Main.java" />
@@ -762,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="103" column="56" lean-forward="true" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
+        <state relative-caret-position="447">
+          <caret line="127" column="13" lean-forward="true" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
           <folding>
             <element signature="e#909#910#0" expanded="true" />
             <element signature="e#953#954#0" expanded="true" />

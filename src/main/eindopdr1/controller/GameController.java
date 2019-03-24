@@ -4,6 +4,7 @@ import src.main.eindopdr1.model.GameModel;
 import src.main.eindopdr1.view.GameView;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -13,6 +14,7 @@ public class GameController {
     private GameModel gameModel;
     private JButton previousButton = new JButton();
     private JButton currentButton = new JButton();
+    private int timesButtonPressed = 0;
 
     public GameController(GameModel gameModel, GameView gameView) {
         this.gameView = gameView;
@@ -25,6 +27,7 @@ public class GameController {
     private class ButtonListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
+            timesButtonPressed++;
             previousButton = currentButton;
             if (e.getSource() == gameView.button1) {
                 currentButton = gameView.button1;
@@ -92,22 +95,44 @@ public class GameController {
                 System.out.println(e.getActionCommand());
             }
 
-            if (currentButton.getActionCommand().equals(previousButton.getActionCommand())
-            && currentButton != previousButton) {
-                gameView.setFrontOfCard(currentButton);
-                gameView.setFrontOfCard(previousButton);
-                gameView.setScoreLabel(gameModel.incrementScore());
-                currentButton = new JButton();
-                previousButton = new JButton();
-                System.out.println("match");
-            } else if (!currentButton.getActionCommand().equals(previousButton.getActionCommand())) {
-//                gameView.setBackOfCard(currentButton);
-                gameView.setBackOfCard(previousButton);
+//            if (currentButton.getActionCommand().equals(previousButton.getActionCommand())
+//            && currentButton != previousButton) {
+//                gameView.setFrontOfCard(currentButton);
+//                gameView.setFrontOfCard(previousButton);
+//                gameView.setScoreLabel(gameModel.incrementScore());
+//                currentButton = new JButton();
+//                previousButton = new JButton();
+//                System.out.println("match");
+//            } else if (!currentButton.getActionCommand().equals(previousButton.getActionCommand())) {
+////                gameView.setBackOfCard(currentButton);
+//
+//            }
+
+            if (timesButtonPressed == 2) {
+                if (currentButton.getActionCommand().equals(previousButton.getActionCommand())
+                && currentButton != previousButton) {
+                    gameView.setScoreLabel(gameModel.incrementScore());
+                } else {
+                    int delay = 500;
+                    Timer timer = new Timer( delay, new ActionListener(){
+                        @Override
+                        public void actionPerformed( ActionEvent e ){
+                        gameView.setBackOfCard(currentButton);
+                        gameView.setBackOfCard(previousButton);
+                        }
+                    } );
+                    timer.setRepeats( false );
+                    timer.start();
+                }
+                timesButtonPressed = 0;
             }
 
 
         }
     }
+
+
+
 
     private class ResetListener implements ActionListener {
 
