@@ -7,6 +7,7 @@ import javax.swing.*;
 public class GameModel {
 
     private GameView gameView;
+    private int score;
 
     public GameModel(GameView gameView) {
         this.gameView = gameView;
@@ -17,6 +18,10 @@ public class GameModel {
         ShuffleArray.shuffle(buttons); // shuffle array
         gameView.setBackOfCards(buttons); // set the back of cards
         gameView.setValueToButtons(buttons); // assign values in pairs of two
+    }
+
+    public int incrementScore() {
+        return ++score;
     }
 
 
