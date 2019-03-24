@@ -5,7 +5,8 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 public class GameView extends JFrame {
-    private JButton Reset;
+    private JLabel scoreLabel;
+    private JButton reset;
     public JButton button1;
     public JButton button2;
     public JButton button3;
@@ -29,8 +30,10 @@ public class GameView extends JFrame {
 
     public GameView() {
         add(rootPanel);
-        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        this.setSize(800, 600);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setTitle("Memory");
+        setSize(460, 530);
+        setResizable(false);
     }
 
     public JButton[][] getButtons() {
@@ -77,14 +80,24 @@ public class GameView extends JFrame {
     public void setBackOfCards(JButton[][] buttons) {
         for (int x = 0; x < buttons.length; x++) {
             for (int y = 0; y < buttons[x].length; y++) {
+                buttons[x][y].setBorder(BorderFactory.createEmptyBorder());
                 setBackOfCard(buttons[x][y]);
             }
         }
     }
 
+    public void setFrontOfCard(JButton button) {
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("../images/card_" + button.getActionCommand() + ".jpg"));
+        button.setIcon(imageIcon);
+    }
+
     public void setBackOfCard(JButton button) {
         ImageIcon imageIcon = new ImageIcon(getClass().getResource("../images/card_back.png"));
         button.setIcon(imageIcon);
+    }
+
+    public void setScoreLabel(int score) {
+        scoreLabel.setText(score + "");
     }
 
     public void addButtonListener (ActionListener listenForButton) {
@@ -107,6 +120,6 @@ public class GameView extends JFrame {
     }
 
     public void addResetListener (ActionListener listenForReset) {
-        Reset.addActionListener(listenForReset);
+        reset.addActionListener(listenForReset);
     }
 }
