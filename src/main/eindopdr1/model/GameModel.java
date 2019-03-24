@@ -15,7 +15,7 @@ public class GameModel {
 
     public void initButtons(JButton[][] buttons) {
         ShuffleArray.shuffle(buttons); // shuffle array
-//        gameView.setBackOfCards(buttons); // set the back of cards
+        gameView.setBackOfCards(buttons); // set the back of cards
         gameView.setValueToButtons(buttons); // assign values in pairs of two
     }
 
