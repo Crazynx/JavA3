@@ -8,7 +8,7 @@ public class Runner {
 
     public static void main(String[] args) {
         GameView gameView = new GameView();
-        GameModel gameModel = new GameModel(gameView.getButtons());
+        GameModel gameModel = new GameModel(gameView);
         GameController gameController = new GameController(gameModel, gameView);
 
         gameView.setVisible(true);

@@ -1,6 +1,7 @@
 package src.main.eindopdr1.view;
 
 import javax.swing.*;
+import java.util.ArrayList;
 
 public class GameView extends JFrame {
     private JButton Reset;
@@ -22,7 +23,8 @@ public class GameView extends JFrame {
     private JButton button16;
     private JPanel rootPanel;
 
-    public JButton[][] buttons;
+    private JButton[][] buttons;
+    private ArrayList<Integer> usedRandIndexes;
 
     public GameView() {
         add(rootPanel);
@@ -52,5 +54,36 @@ public class GameView extends JFrame {
         buttons[3][2] = button15;
         buttons[3][3] = button16;
         return buttons;
+    }
+
+    public void setValueToButtons(JButton[][] buttons) { // set icons to buttons in pairs of two
+        usedRandIndexes  = new ArrayList<>(8); // initialize arraylist
+        for (int x = 0; x < buttons.length; x++) {
+            for (int y = 0; y < buttons[x].length; y++) {
+                while (true) {
+                    int randIndex = (int) (Math.random() * 8 + 1); // create random index
+                    if (!usedRandIndexes.contains(randIndex)) { // check if random index isn't already used
+                        buttons[x][y].setActionCommand(randIndex + ""); // set icon to button
+                        buttons[x][++y].setActionCommand(randIndex + ""); // set icon to button
+                        usedRandIndexes.add(randIndex); // add rand index to used rand indexes
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    public void setBackOfCards(JButton[][] buttons) {
+        for (int x = 0; x < buttons.length; x++) {
+            for (int y = 0; y < buttons[x].length; y++) {
+                setBackOfCard(buttons[x][y]);
+            }
+        }
+    }
+
+    public void setBackOfCard(JButton button) {
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("../images/card_back.png"));
+        button.setIcon(imageIcon);
+        System.out.println(button.getActionCommand());
     }
 }
