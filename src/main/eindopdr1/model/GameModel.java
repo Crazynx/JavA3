@@ -20,8 +20,13 @@ public class GameModel {
         gameView.setValueToButtons(buttons); // assign values in pairs of two
     }
 
+    public int resetScore() {
+        score = 0; // set score to 0
+        return score;
+    }
+
     public int incrementScore() {
-        return ++score;
+        return ++score; // increment score by 1
     }
 
 
