@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="421ef153-89c0-43f1-8658-6f3602fb7c8f" name="Default Changelist" comment="icons">
+    <list default="true" id="421ef153-89c0-43f1-8658-6f3602fb7c8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavA3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,22 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="207">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="253">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="1817">
+              <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -50,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="207">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,6 +84,7 @@
       <find>[][]</find>
       <find>icon</find>
       <find>add</find>
+      <find>gamevi</find>
     </findStrings>
     <replaceStrings>
       <replace>add</replace>
@@ -120,20 +122,21 @@
         <option value="$PROJECT_DIR$/src/main/eindopdr1/view/gameView.form" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/view/gameView.java" />
         <option value="$PROJECT_DIR$/src/main/oefening4/view/AddView.java" />
-        <option value="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/model/Game.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/model/Card.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/UnitTest.java" />
-        <option value="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/model/ShuffleArray.java" />
-        <option value="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java" />
+        <option value="$PROJECT_DIR$/src/main/eindopdr1/controller/ResetListener.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java" />
+        <option value="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java" />
+        <option value="$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="-504" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -146,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,18 +194,22 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="316" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553288224729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553499435374" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="src.main.eindopdr1.controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\larsv\Documents\IdeaProjects\JavA3\src\main\oefening4\view" />
     </key>
@@ -375,7 +383,119 @@
       <option name="project" value="LOCAL" />
       <updated>1553379128598</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="reenforced the MVC pattern">
+      <created>1553427442751</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553427442751</updated>
+    </task>
+    <task id="LOCAL-00016" summary="set proper width &amp; height to icons">
+      <created>1553427468386</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1553427468386</updated>
+    </task>
+    <task id="LOCAL-00017" summary="new icons for buttons">
+      <created>1553435513137</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1553435513138</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added action listeners">
+      <created>1553435539206</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1553435539206</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added action handlers">
+      <created>1553435567445</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1553435567445</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added comment">
+      <created>1553435586474</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1553435586474</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added action listeners">
+      <created>1553435606516</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1553435606516</updated>
+    </task>
+    <task id="LOCAL-00022" summary="new method for setting score, front of card. removed borders of cardbuttons">
+      <created>1553437094828</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553437094828</updated>
+    </task>
+    <task id="LOCAL-00023" summary="resized images according to width and height of buttons">
+      <created>1553437110998</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1553437110998</updated>
+    </task>
+    <task id="LOCAL-00024" summary="uncommented a line that was commented for testing">
+      <created>1553437139324</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1553437139324</updated>
+    </task>
+    <task id="LOCAL-00025" summary="when clicked, a card will turn">
+      <created>1553437155683</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1553437155683</updated>
+    </task>
+    <task id="LOCAL-00026" summary="increment score method added. method that increments the score">
+      <created>1553441280686</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441280686</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added current and previous button variables, used to check for match">
+      <created>1553441313866</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441313866</updated>
+    </task>
+    <task id="LOCAL-00028" summary="setScore method added that shows the score">
+      <created>1553441336227</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441336227</updated>
+    </task>
+    <task id="LOCAL-00029" summary="increment score method that increments the score">
+      <created>1553441372297</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441372297</updated>
+    </task>
+    <task id="LOCAL-00030" summary="resized images, again...">
+      <created>1553441384977</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1553441384977</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -388,10 +508,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -401,12 +521,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.38907468" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.33110368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32998884" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.17391305" />
@@ -492,9 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GUI voor de lijst en het scherm om een persoon toe te voegen" />
-    <MESSAGE value="Runner in de oefening geplaats ipv er buiten" />
-    <MESSAGE value="alle velden worden leeg gemaakt na het invoeren van een persoon" />
     <MESSAGE value="indentation gewijzigd" />
     <MESSAGE value="clearField methode en commentaar toegevoegd" />
     <MESSAGE value="commentaar gewijzigd en list item duidelijker gemaakt" />
@@ -505,7 +622,22 @@
     <MESSAGE value="buttons kunnen geshuffeld worden en krijgen automatisch een random waarde" />
     <MESSAGE value="icons worden nu aan de buttons toegevoegd" />
     <MESSAGE value="icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="icons" />
+    <MESSAGE value="reenforced the MVC pattern" />
+    <MESSAGE value="set proper width &amp; height to icons" />
+    <MESSAGE value="new icons for buttons" />
+    <MESSAGE value="added action handlers" />
+    <MESSAGE value="added comment" />
+    <MESSAGE value="added action listeners" />
+    <MESSAGE value="new method for setting score, front of card. removed borders of cardbuttons" />
+    <MESSAGE value="resized images according to width and height of buttons" />
+    <MESSAGE value="uncommented a line that was commented for testing" />
+    <MESSAGE value="when clicked, a card will turn" />
+    <MESSAGE value="increment score method added. method that increments the score" />
+    <MESSAGE value="added current and previous button variables, used to check for match" />
+    <MESSAGE value="setScore method added that shows the score" />
+    <MESSAGE value="increment score method that increments the score" />
+    <MESSAGE value="resized images, again..." />
+    <option name="LAST_COMMIT_MESSAGE" value="resized images, again..." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/oefening4/Main.java" />
@@ -559,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/oefening4/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/Card.java" />
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/UnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -577,16 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/ShuffleArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -594,30 +709,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/images/card_back.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/ResetListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/oefening4/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="207">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="1817">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>

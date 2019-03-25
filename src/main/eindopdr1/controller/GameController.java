@@ -4,7 +4,6 @@ import src.main.eindopdr1.model.GameModel;
 import src.main.eindopdr1.view.GameView;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
