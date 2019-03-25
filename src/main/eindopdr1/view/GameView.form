@@ -72,7 +72,7 @@
           <enabled value="false"/>
           <horizontalAlignment value="0"/>
           <horizontalTextPosition value="0"/>
-          <text value=""/>
+          <text value="0"/>
         </properties>
       </component>
       <component id="edde4" class="javax.swing.JButton" binding="reset">
