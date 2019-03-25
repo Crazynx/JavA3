@@ -20,125 +20,53 @@ public class GameController {
         this.gameView = gameView;
         this.gameModel = gameModel;
 
-        gameView.addButtonListener(new ButtonListener());
-        gameView.addResetListener(new ResetListener());
+        gameView.addButtonListener(new ButtonListener()); // button listener for "cards"
+        gameView.addResetListener(new ResetListener()); // button listener for the reset button
     }
 
     private class ButtonListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
+            JButton[][] buttons = gameView.getButtons(); //
             timesButtonPressed++;
-            previousButton = currentButton;
-            if (e.getSource() == gameView.button1) {
-                currentButton = gameView.button1;
-                gameView.setFrontOfCard(gameView.button1);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button2) {
-                currentButton = gameView.button2;
-                gameView.setFrontOfCard(gameView.button2);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button3) {
-                currentButton = gameView.button3;
-                gameView.setFrontOfCard(gameView.button3);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button4) {
-                currentButton = gameView.button4;
-                gameView.setFrontOfCard(gameView.button4);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button5) {
-                currentButton = gameView.button5;
-                gameView.setFrontOfCard(gameView.button5);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button6) {
-                currentButton = gameView.button6;
-                gameView.setFrontOfCard(gameView.button6);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button7) {
-                currentButton = gameView.button7;
-                gameView.setFrontOfCard(gameView.button7);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button8) {
-                currentButton = gameView.button8;
-                gameView.setFrontOfCard(gameView.button8);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button9) {
-                currentButton = gameView.button9;
-                gameView.setFrontOfCard(gameView.button9);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button10) {
-                currentButton = gameView.button10;
-                gameView.setFrontOfCard(gameView.button10);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button11) {
-                currentButton = gameView.button11;
-                gameView.setFrontOfCard(gameView.button11);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button12) {
-                currentButton = gameView.button12;
-                gameView.setFrontOfCard(gameView.button12);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button13) {
-                currentButton = gameView.button13;
-                gameView.setFrontOfCard(gameView.button13);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button14) {
-                currentButton = gameView.button14;
-                gameView.setFrontOfCard(gameView.button14);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button15) {
-                currentButton = gameView.button15;
-                gameView.setFrontOfCard(gameView.button15);
-                System.out.println(e.getActionCommand());
-            } else if (e.getSource() == gameView.button16) {
-                currentButton = gameView.button16;
-                gameView.setFrontOfCard(gameView.button16);
-                System.out.println(e.getActionCommand());
+            previousButton = currentButton; // switch the buttons
+            for (int x = 0; x < buttons.length; x++) {
+                for (int y = 0; y < buttons[x].length; y++) {
+                    if (e.getSource() == buttons[x][y]) { // check which button is pressed
+                        currentButton = buttons[x][y]; // assign button to current button
+                        gameView.setFrontOfCard(buttons[x][y]); // turn card to front
+                    }
+                }
             }
-
-//            if (currentButton.getActionCommand().equals(previousButton.getActionCommand())
-//            && currentButton != previousButton) {
-//                gameView.setFrontOfCard(currentButton);
-//                gameView.setFrontOfCard(previousButton);
-//                gameView.setScoreLabel(gameModel.incrementScore());
-//                currentButton = new JButton();
-//                previousButton = new JButton();
-//                System.out.println("match");
-//            } else if (!currentButton.getActionCommand().equals(previousButton.getActionCommand())) {
-////                gameView.setBackOfCard(currentButton);
-//
-//            }
 
             if (timesButtonPressed == 2) {
                 if (currentButton.getActionCommand().equals(previousButton.getActionCommand())
-                && currentButton != previousButton) {
-                    gameView.setScoreLabel(gameModel.incrementScore());
+                && currentButton != previousButton) { // check if the values match, and if the card is not matching itself
+                    gameView.setScoreLabel(gameModel.incrementScore()); //
                 } else {
-                    int delay = 500;
+                    int delay = 500; // delay, after 0.5 secs
                     Timer timer = new Timer( delay, new ActionListener(){
                         @Override
                         public void actionPerformed( ActionEvent e ){
-                        gameView.setBackOfCard(currentButton);
-                        gameView.setBackOfCard(previousButton);
+                        gameView.setBackOfCard(currentButton); // turn card
+                        gameView.setBackOfCard(previousButton); // turn card
                         }
                     } );
-                    timer.setRepeats( false );
-                    timer.start();
+                    timer.setRepeats( false ); // disable repeat
+                    timer.start(); // start the timer
                 }
-                timesButtonPressed = 0;
+                timesButtonPressed = 0; // reset back to 0
             }
-
-
         }
     }
-
-
-
 
     private class ResetListener implements ActionListener {
 
         @Override
-        public void actionPerformed(ActionEvent e) {
-            System.out.println();
+        public void actionPerformed(ActionEvent e) { // reset back to standard values
+            gameModel.initButtons(gameView.getButtons()); // initialize buttons, the values will be set back to normal
+            gameView.setScoreLabel(gameModel.resetScore()); // reset value back to 0
+
         }
     }
 
