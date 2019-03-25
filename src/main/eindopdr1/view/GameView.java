@@ -7,22 +7,22 @@ import java.util.ArrayList;
 public class GameView extends JFrame {
     private JLabel scoreLabel;
     private JButton reset;
-    public JButton button1;
-    public JButton button2;
-    public JButton button3;
-    public JButton button4;
-    public JButton button5;
-    public JButton button6;
-    public JButton button7;
-    public JButton button8;
-    public JButton button9;
-    public JButton button10;
-    public JButton button11;
-    public JButton button12;
-    public JButton button13;
-    public JButton button14;
-    public JButton button15;
-    public JButton button16;
+    private JButton button1;
+    private JButton button2;
+    private JButton button3;
+    private JButton button4;
+    private JButton button5;
+    private JButton button6;
+    private JButton button7;
+    private JButton button8;
+    private JButton button9;
+    private JButton button10;
+    private JButton button11;
+    private JButton button12;
+    private JButton button13;
+    private JButton button14;
+    private JButton button15;
+    private JButton button16;
     private JPanel rootPanel;
 
     private JButton[][] buttons;
@@ -77,49 +77,38 @@ public class GameView extends JFrame {
         }
     }
 
-    public void setBackOfCards(JButton[][] buttons) {
+    public void setBackOfCards(JButton[][] buttons) { // set back of all cards
         for (int x = 0; x < buttons.length; x++) {
             for (int y = 0; y < buttons[x].length; y++) {
-                buttons[x][y].setBorder(BorderFactory.createEmptyBorder());
+                buttons[x][y].setBorder(BorderFactory.createEmptyBorder()); // remove borders, because UGLY
                 setBackOfCard(buttons[x][y]);
             }
         }
     }
 
     public void setFrontOfCard(JButton button) {
-        ImageIcon imageIcon = new ImageIcon(getClass().getResource("../images/card_" + button.getActionCommand() + ".jpg"));
-        button.setIcon(imageIcon);
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("../images/card_" + button.getActionCommand() + ".jpg")); // get image with the value of card
+        button.setIcon(imageIcon); // set image of front
     }
 
     public void setBackOfCard(JButton button) {
-        ImageIcon imageIcon = new ImageIcon(getClass().getResource("../images/card_back.png"));
-        button.setIcon(imageIcon);
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("../images/card_back.png")); // get image of back
+        button.setIcon(imageIcon); // set image of back
     }
 
-    public void setScoreLabel(int score) {
+    public void setScoreLabel(int score) { // set score to the score label
         scoreLabel.setText(score + "");
     }
 
-    public void addButtonListener (ActionListener listenForButton) {
-        button1.addActionListener(listenForButton);
-        button2.addActionListener(listenForButton);
-        button3.addActionListener(listenForButton);
-        button4.addActionListener(listenForButton);
-        button5.addActionListener(listenForButton);
-        button6.addActionListener(listenForButton);
-        button7.addActionListener(listenForButton);
-        button8.addActionListener(listenForButton);
-        button9.addActionListener(listenForButton);
-        button10.addActionListener(listenForButton);
-        button11.addActionListener(listenForButton);
-        button12.addActionListener(listenForButton);
-        button13.addActionListener(listenForButton);
-        button14.addActionListener(listenForButton);
-        button15.addActionListener(listenForButton);
-        button16.addActionListener(listenForButton);
+    public void addButtonListener (ActionListener listenForButton) { // set action listener for each "card"
+        for (int x = 0; x < buttons.length; x++) {
+            for (int y = 0; y < buttons.length; y++) {
+                buttons[x][y].addActionListener(listenForButton);
+            }
+        }
     }
 
-    public void addResetListener (ActionListener listenForReset) {
+    public void addResetListener (ActionListener listenForReset) { // set action listener for reset button
         reset.addActionListener(listenForReset);
     }
 }
