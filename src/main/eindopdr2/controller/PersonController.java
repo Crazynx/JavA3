@@ -1,9 +1,9 @@
 package src.main.eindopdr2.controller;
 
-import src.main.oefening4.model.Person;
-import src.main.oefening4.model.PersonModel;
-import src.main.oefening4.view.AddView;
-import src.main.oefening4.view.PersonView;
+import src.main.eindopdr2.model.Database;
+import src.main.eindopdr2.model.Person;
+import src.main.eindopdr2.view.AddView;
+import src.main.eindopdr2.view.PersonView;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,12 +12,12 @@ public class PersonController {
 
     private AddView addView;
     private PersonView personView;
-    private PersonModel personModel;
+    private Database database;
 
-    public PersonController(AddView addView, PersonView personView, PersonModel personModel) {
+    public PersonController(AddView addView, PersonView personView, Database database) {
         this.addView = addView;
         this.personView = personView;
-        this.personModel = personModel;
+        this.database = database;
 
         this.personView.addAddButtonListener(new AddListener());
         this.addView.addSubmitButtonListener(new SubmitListener());
@@ -40,9 +40,13 @@ public class PersonController {
             Person person = new Person(); // create new person
             person.setFirstname(addView.getFirstnameField()); // set first name
             person.setLastname(addView.getLastnameField()); // set last name
-            personModel.addPerson(person); // add person to the person list
 
-            personView.updatePersonList(personModel.getPersons()); // update person with the person list as parameter
+            database.getConnection(); // start connection
+
+            database.addPerson(person); // add person to database
+            personView.updatePersonList(database.getPersons()); // update person with the person list as parameter
+
+            database.closeConnection(); // close connection
 
             addView.clearFields(); // empty the fields
             addView.setVisible(false); // hide the tab
