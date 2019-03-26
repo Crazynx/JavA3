@@ -2,33 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="421ef153-89c0-43f1-8658-6f3602fb7c8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/larsv.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/mysqlOefening/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/mysqlOefening/ConnectionConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavA3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavA3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/mysqlOefening/sql/dump" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/.idea/JavA3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/.idea/JavA3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavA3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/model/GameModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening1/person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening2/Auto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening2/Vervoermiddel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening3/Auto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening3/Vervoermiddel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening3/Wegenbelasting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening4/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening4/controller/PersonController$AddListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening4/controller/PersonController$SubmitListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening4/controller/PersonController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening4/model/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening4/model/PersonModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening4/view/AddView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/oefening4/view/PersonView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/controller/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavA3/src/main/eindopdr1/view/GameView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/mysqlOefening/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/mysqlOefening/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/mysqlOefening/ConnectionConfiguration.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,65 +24,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/mysqlOefening/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            <state relative-caret-position="897">
+              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/mysqlOefening/ConnectionConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/src/main/mysqlOefening/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="437">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/model/GameModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form">
-          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -174,6 +117,8 @@
         <option value="$PROJECT_DIR$/src/main/eindopdr1/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form" />
         <option value="$PROJECT_DIR$/src/main/mysqlOefening/ConnectionConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/eindopdr2/sql/dump" />
+        <option value="$PROJECT_DIR$/src/main/mysqlOefening/Database.java" />
       </list>
     </option>
   </component>
@@ -205,32 +150,22 @@
             </path>
             <path>
               <item name="JavA3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JavA3" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="eindopdr2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavA3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="mysql-connector-java-8.0.15.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavA3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="mysql-connector-java-8.0.15.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavA3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="mysql-connector-java-8.0.15.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="JavA3" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="mysqlOefening" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +174,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="316" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553545655368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553604013739" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.15.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -266,7 +201,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner (1)">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.mysqlOefening.App" />
+      <module name="JavA3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.mysqlOefening.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.eindopdr1.Runner" />
       <module name="JavA3" />
@@ -308,6 +256,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.UnitTest" />
         <item itemvalue="Application.Runner" />
@@ -577,9 +526,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
+      <window_info id="DB Browser" weight="0.32995737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14658849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -587,9 +536,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32887402" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.35005575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -597,7 +547,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32887402" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.17352942" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.17279822" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -788,13 +738,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
+    <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.15.jar!/com/mysql/jdbc/Driver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        <state relative-caret-position="115">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/mysql-connector-java-8.0.15-sources.jar!/com/mysql/jdbc/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/mysqlOefening/ConnectionConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -828,31 +786,38 @@
     <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/view/GameView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.15.jar!/com/mysql/jdbc/Driver.class">
+    <entry file="file://$PROJECT_DIR$/src/main/mysqlOefening/sql/dump">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/eindopdr1/controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/mysqlOefening/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://3fec6d14-e736-4bb2-9a4a-1fec422167d8/consoles/test">
+      <provider selected="true" editor-type-id="0.CONSOLE">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/mysqlOefening/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/mysql-connector-java-8.0.15-sources.jar!/com/mysql/jdbc/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/mysqlOefening/ConnectionConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="437">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
