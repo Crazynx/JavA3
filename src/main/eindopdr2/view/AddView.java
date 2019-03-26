@@ -11,7 +11,7 @@ public class AddView extends JFrame{
     private JPanel rootPanelSubmit;
 
     public AddView() {
-        add(rootPanelSubmit); // add rootpanel
+        this.add(rootPanelSubmit); // add rootpanel
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // close when tab is closed instead of hiding tab
 

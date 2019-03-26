@@ -1,9 +1,11 @@
 package src.main.eindopdr2.view;
 
-import src.main.oefening4.model.Person;
+import src.main.eindopdr2.model.Person;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 public class PersonView extends JFrame {
@@ -25,10 +27,17 @@ public class PersonView extends JFrame {
         addButton.addActionListener(listenForAddButton);
     }
 
-    public void updatePersonList(List<Person> personen) { // update the person list
-        model = new DefaultListModel<String>(); // create new model
-        for (Person person : personen) { // foreach every person to a new element
-            model.addElement("Naam: " + person.getFirstname() + " " + person.getLastname());
+    public void updatePersonList(ResultSet resultSet) { // update the person list
+        model = new DefaultListModel<>(); // create new model
+
+        while (true) { // loop for adding first and last name to the model from the database
+            try {
+                if (!resultSet.next()) break;
+                model.addElement("Naam: " + resultSet.getString("firstname") +
+                        " " + resultSet.getString("lastname"));
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
         personList.setModel(model); // set the list to model
     }
